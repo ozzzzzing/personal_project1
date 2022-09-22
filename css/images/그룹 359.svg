@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,255,255,0.8);
+      }
+
+      .cls-2 {
+        fill: rgba(255,255,255,0.6);
+      }
+
+      .cls-3 {
+        fill: rgba(0,0,0,0.8);
+      }
+    </style>
+  </defs>
+  <g id="그룹_359" data-name="그룹 359" transform="translate(-1833 -711)">
+    <g id="그룹_2" data-name="그룹 2" transform="translate(1833 711)">
+      <path id="패스_1" data-name="패스 1" class="cls-1" d="M27,53h0A26,26,0,0,1,1,27H1A26,26,0,0,1,27,1h0A26,26,0,0,1,53,27h0A26,26,0,0,1,27,53Z"/>
+      <path id="패스_2" data-name="패스 2" class="cls-2" d="M27,54A27,27,0,1,1,54,27,27.03,27.03,0,0,1,27,54ZM27,2A25,25,0,1,0,52,27,25.028,25.028,0,0,0,27,2Z"/>
+    </g>
+    <path id="패스_3" data-name="패스 3" class="cls-3" d="M22.294,40a1,1,0,0,1-.707-1.707L32.88,27,21.587,15.707A1,1,0,0,1,23,14.293l11.5,11.5a1.711,1.711,0,0,1,0,2.418L23,39.707A1,1,0,0,1,22.294,40Z" transform="translate(1833 711)"/>
+  </g>
+</svg>

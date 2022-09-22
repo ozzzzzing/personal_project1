@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREMA</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 토글 메뉴 및 캐러셀 구현을 위한 제이쿼리 플러그인 스크립트 소스 연결 -->
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <!-- 캐러셀을 구현을 위한 제이쿼리 플러그인 스크립트 소스 연결 -->
+    <script src="./js/jquery.bxslider.js"></script>
+    <!-- 스크롤 효과 자바스크립트 제이쿼리 연결 -->
+    <script src="./js/jquery.scrollTo.min.js"></script>
+    <!-- 캐러셀을 적용하기 위한 스타일시트 -->
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+</head>
+<body>
+    <header>
+            <div id="menu1">
+                <a href="#" id="toggle"><img src="./images/category_icon.svg" alt="토글메뉴"></a>
+                <a href="#top" id="logo"><img src="./images/crema_logo3.png" alt="로고"></a>
+            </div>
+            <div id="menu2">
+                <ul>
+                    <li><a href="#cremaS">CREMA S</a></li>
+                    <li><a href="#cartaG">CARTA G</a></li>
+                    <li><a href="#soundUP">SOUND UP</a></li>
+                    <li><a href="#grande">GRANDE</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                </ul>
+                <img src="./images/menu_line.svg" alt="">
+            </div>
+    </header>
+    <section id="mainimage">
+        <div class="wrapper">
+            <div class="bxslider">
+                <div>
+                    <picture>
+                        <source srcset="./images/tab1.jpg" media="(min-width: 1250px max-width: 1899px)">
+                        <source srcset="./images/TOP_1_PC.jpg" media="(min-width: 1600px)">
+                        <img src="./images/TOP_1.jpg" alt="carousel image1">
+                    </picture>    
+                </div>
+                <div>
+                    <picture>
+                        <source srcset="./images/tab2.jpg" media="(min-width: 1250px; max-width: 1899px)">
+                        <source srcset="./images/TOP_2_PC.jpg" media="(min-width: 1600px)">
+                        <img src="./images/top_2.jpg" alt="carousel image2">
+                    </picture>
+                </div>  
+                <div>
+                    <picture>
+                        <source srcset="./images/tab3.jpg" media="(min-width: 1250px max-width: 1899px)">
+                        <source srcset="./images/TOP_3_PC.jpg" media="(min-width: 1600px)">
+                        <img src="./images/top_3.jpg" alt="carousel image3">
+                    </picture> 
+                </div>      
+                <div>
+                    <picture>
+                        <source srcset="./images/tab4.jpg" media="(min-width: 1250px max-width: 1899px)">
+                        <source srcset="./images/TOP_4_PC.jpg" media="(min-width: 1600px)">
+                        <img src="./images/top_4.jpg" alt="carousel image4">
+                    </picture> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div id="intro">
+            <div id="intro_1">
+                <img src="./images/cremaro_2.svg" alt="로고">
+                <h2>언제 어디서나 편리하게</h2>
+            </div>
+            <div id="intro_2">
+                <img src="./images/intro1_1.jpg" alt="">
+                <div id="intro_2_2">
+                    <h3>무거운 책들은 이제 NO!</h3>
+                    <img src="./images/intro_1_line.jpg" alt="">
+                    <h4>콤팩트한 사이즈와 무게로<br>
+                        언제 어디서든 자유롭게<br> 
+                        즐기는 독서 라이프<br>
+                    </h4>
+                </div>
+            </div>
+            <div id="intro_3">
+                <img src="./images/intro3_1.svg" alt="">
+                <img src="./images/cremaS_04.gif" alt="">
+                <div id="remote">
+                    <img src="./images/remote.jpg" alt="">
+                    <img src="./images/BT_remote.svg" alt="">
+                    <img src="./images/intro2_2line.svg" alt="">
+                    <p>리모콘으로 자유롭게 <mark style="color:#fff ; background: #292929;">페이지 넘김이 가능</mark>합니다.</p>
+                </div>
+            </div>
+            <div id="intro_4">
+                <picture>
+                    <source srcset="./images/intro3_3.jpg" media="(min-width: 768px)">
+                    <img src="./images/intro3.svg" alt="">
+                </picture>
+            </div>
+        </div>
+        <div id="cremaS">
+            <img src="./images/cremas_line.svg" alt="">
+            <img src="./images/cremaS_1.svg" alt="">
+            <img src="./images/cremaS_2.svg" alt="">
+            <div id="cremaS_text">
+                <picture>
+                    <source srcset="./images/cremaS_3_768.svg" media="(min-width: 768px)">
+                    <img src="./images/cremaS_3.svg" alt="">
+                </picture>
+                <div id="text_text">
+                    <h2>가장 작고, 얇고, 가볍다</h2>
+                    <p>가로 107mm, 세로 153mm, 두께 6.8mm의 가장 콤팩트한 사이즈.<br/>
+                    150g에 불과한 무게로 한 손에 쏙, 장시간 부담없이!</p>
+                </div>
+                </div>
+        </div>
+        <div id="cartaG">
+            <img src="./images/cartaG_line.svg" alt="">
+            <div id="cartaG_1">
+                <img src="./images/cartaG_1_line.svg" alt="">
+                <h2>전자책 단말기의 선택 기준</h2>
+                <img src="./images/cartaG_1_line.svg" alt="">
+                <img src="./images/cartaG_1_logo.svg" alt="">
+                <p>
+                    선명한 300ppi 카르타 패널, 페이지 넘김 물리키,<br/>
+                    <mark style="background: #DDE2EC">크레마 단말기 최초 Gyro sensor 탑재까지.</mark><br/>
+                    편리함을 넘어 성능까지 완성한 전자책 단말기의 기준!
+                </p>
+                <img src="./images/cartaG_1_main.jpg" alt="">
+            </div>
+            <div id="cartaG_2">
+                <div id="cartaG_2_1">
+                    <img src="./images/gyrosensor.jpg" alt="">
+                </div>
+                <div id="cartaG_2_2">
+                     <h3>G센서를 담았다</h3>   
+                     <p><mark style="background: #D7D8D3">크레마 단말기 최초 G센서(Gyro sensor) 탑재!</mark><br/>
+                        화면을 돌리면 상하를 자동으로 인식하다.
+                    </p>
+                </div>
+                <div id="cartaG_2_2">
+                    <img src="./images/carta_gyro.jpg" alt="">
+                </div>
+            </div>
+            <div id="soundUP">
+                <img src="./images/soundup_line.svg" alt="">
+                <img src="./images/soundup_1.jpg" alt="">
+                <img src="./images/soundup_2.jpg" alt="">
+                <picture id="SU">
+                    <source srcset="./images/soundup_3_768.svg" media="(min-width: 768px)">
+                    <img src="./images/soundup_3.svg" alt="">
+                </picture>
+            </div>
+            <div id="grande">
+                <img src="./images/grande_line.svg" alt="">
+                <img src="./images/grande1.jpg" alt="">
+                <img src="./images/grande2.jpg" alt="">
+            </div>
+            <div id="products">
+                <div id="products_1">
+                    <img src="./images/products_line.svg" alt="">
+                    <h2>PRODUCTS</h2>
+                </div>
+                <div id="p_1">
+                    <div class="products_detail">
+                        <h4>CREMA S</h4>
+                        <img src="./images/products_line2.svg" alt="">
+                        <img src="./images/products_cremaS.jpg" alt="">
+                        <div class="price">
+                            <p>199,000원</p>
+                            <p>최신형 크레마</p>
+                        </div>
+                        <div class="btn">
+                            <p>상세페이지</p>
+                            <p>장바구니</p>
+                        </div>
+                    </div>
+                    <div class="products_detail">
+                        <h4>CARTA G</h4>
+                        <img src="./images/products_line2.svg" alt="">
+                        <img src="./images/products_cartaG.jpg" alt="">
+                        <div class="price">
+                            <p>179,000원</p>
+                            <p>G센서, 페이지 넘김 버튼</p>
+                        </div>
+                        <div class="btn">
+                            <p>상세페이지</p>
+                            <p>장바구니</p>
+                        </div>
+                    </div> 
+                </div>
+                <div id="p_2">               
+                    <div class="products_detail">
+                        <h4>SOUND UP</h4>
+                        <img src="./images/products_line2.svg" alt="">
+                        <img src="./images/products_soundUP.jpg" alt="">
+                        <div class="price">
+                            <p>129,000원</p>
+                            <p>홈과 페이지 넘김 버튼</p>
+                        </div>
+                        <div class="btn">
+                            <p>상세페이지</p>
+                            <p>장바구니</p>
+                        </div>
+                    </div>                
+                    <div class="products_detail">
+                        <h4>GRANDE</h4>
+                        <img src="./images/products_line2.svg" alt="">
+                        <img src="./images/products_grande.jpg" alt="">
+                        <div class="price">
+                            <p>209,000원</p>
+                            <p>6.8인치 대화면</p>
+                        </div>
+                        <div class="btn">
+                            <p>상세페이지</p>
+                            <p>장바구니</p>
+                        </div>
+                    </div>            
+                </div>
+        </div>
+    </section>
+    <footer>
+        <a id="topB" href="#top">Top</a>
+        <div id="footer1">
+            <p>© CREMA. All Rights Reserved.</p>
+            <p>
+                <a href="#">인스타그램</a>
+                <a href="#">페이스북</a>
+                <a href="#">트위터</a>
+                <a href="#">유튜브</a>
+            </p>
+        </div>
+        <div id="footer2">
+            <p>
+                <a href="#">크레마 소개</a>
+                <a href="#">이용약관</a>
+                <a href="#">개인정보처리방침</a>
+            </p>
+            <p>
+                주식회사 크레마 | 대표자: 크레마<br><br>
+                개인정보보호책임자: 크레마<br><br>
+                사업자등록번호: 123-45-67890 사업자정보 확인<br><br>
+                통신판매업: 제 2022-대구동구-012345호<br><br>
+                주소: 대구광역시 동구<br><br><br><br>
+                팩스: 070-123-4567 | 이메일: help@coffet.com<br><br>
+                고객센터: 1234-5678  
+            </p>
+        </div>
+    </footer>
+    <script>
+        $(function(){
+            //토글 메뉴 플러그인 실행
+            var toggle = $('#toggle');
+            var menu = $('#menu2 ul');
+            $(toggle).on('click', function (e){
+                //이벤트 버블링이란 버튼을 감싸고 있는 wrapper에도 이벤트가 작동되는 현상
+                e.preventDefault();//이벤트 버블링을 막기 위한 코드(이벤트가 부모한테까지 전파가 되지 않도록 함, 지정한 것에만 이벤트가 발생하도록)
+                menu.slideToggle();//효과 메서드, slideUp(), slideDown() 효과 동시 적용
+            });
+            // 토글메뉴 ul 사라짐 방지
+            // $(window).resize(function(){
+            //     if($(window).width()>764){
+            //         $("nav ul").show();
+            //     }else {
+            //         $("nav ul").hide();
+            //     }
+            // });
+
+            //스크롤 기능을 위한 자바스크립트 제이쿼리 실행
+            $(function(){
+                $('#menu2 a').click(function(e){
+                    $.scrollTo(this.hash || 0, 1500);
+                    e.preventDefault();
+                });
+            });
+
+            //캐러셀 플러그인 실행
+            $('.bxslider').bxSlider({
+                auto:true,
+                autoHover: true,
+            });
+        });
+    </script>
+</body>
+</html>

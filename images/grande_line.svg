@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="303" height="15" viewBox="0 0 303 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1d;
+        font-size: 10px;
+        font-family: NotoSansKR-Bold, Noto Sans KR;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #b5bc88;
+      }
+    </style>
+  </defs>
+  <g id="그룹_326" data-name="그룹 326" transform="translate(-30 -5739)">
+    <text id="GRANDE" class="cls-1" transform="translate(161 5751)"><tspan x="0" y="0">GRANDE</tspan></text>
+    <rect id="사각형_53" data-name="사각형 53" class="cls-2" width="123" height="1" rx="0.5" transform="translate(30 5751)"/>
+    <rect id="사각형_54" data-name="사각형 54" class="cls-2" width="125" height="1" rx="0.5" transform="translate(208 5751)"/>
+  </g>
+</svg>

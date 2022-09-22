@@ -1,0 +1,32 @@
+<svg id="category_icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #b1b59a;
+      }
+    </style>
+  </defs>
+  <path id="패스_7" data-name="패스 7" class="cls-1" d="M0,0H24V24H0Z"/>
+  <g id="그룹_11" data-name="그룹 11">
+    <g id="그룹_7" data-name="그룹 7">
+      <line id="선_1" data-name="선 1" x2="16.4" transform="translate(3.8 5.7)"/>
+      <path id="패스_8" data-name="패스 8" class="cls-2" d="M20.2,6.6H3.8c-.7,0-1.2-.4-1.2-.9s.5-.9,1.2-.9H20.3c.7,0,1.2.4,1.2.9S20.9,6.6,20.2,6.6Z"/>
+    </g>
+    <g id="그룹_8" data-name="그룹 8">
+      <line id="선_2" data-name="선 2" x2="16.4" transform="translate(3.8 9.9)"/>
+      <path id="패스_9" data-name="패스 9" class="cls-2" d="M20.2,10.8H3.8c-.7,0-1.2-.4-1.2-.9S3.1,9,3.8,9H20.3c.7,0,1.2.4,1.2.9A1.24,1.24,0,0,1,20.2,10.8Z"/>
+    </g>
+    <g id="그룹_9" data-name="그룹 9">
+      <line id="선_3" data-name="선 3" x2="16.4" transform="translate(3.8 14.1)"/>
+      <path id="패스_10" data-name="패스 10" class="cls-2" d="M20.2,15H3.8c-.7,0-1.2-.4-1.2-.9s.5-.9,1.2-.9H20.3c.7,0,1.2.4,1.2.9A1.24,1.24,0,0,1,20.2,15Z"/>
+    </g>
+    <g id="그룹_10" data-name="그룹 10">
+      <line id="선_4" data-name="선 4" x2="16.4" transform="translate(3.8 18.3)"/>
+      <path id="패스_11" data-name="패스 11" class="cls-2" d="M20.2,19.2H3.8c-.7,0-1.2-.4-1.2-.9s.5-.9,1.2-.9H20.3c.7,0,1.2.4,1.2.9A1.24,1.24,0,0,1,20.2,19.2Z"/>
+    </g>
+  </g>
+</svg>

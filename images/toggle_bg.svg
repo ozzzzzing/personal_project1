@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360.192" height="174.357" viewBox="0 0 360.192 174.357">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(195,201,175,0.24);
+      }
+
+      .cls-2 {
+        fill: #dad7c5;
+      }
+
+      .cls-2, .cls-3 {
+        opacity: 0.84;
+      }
+
+      .cls-3 {
+        fill: #dcdfcc;
+      }
+    </style>
+  </defs>
+  <g id="그룹_329" data-name="그룹 329" transform="translate(0 -77)">
+    <rect id="사각형_7" data-name="사각형 7" class="cls-1" width="360" height="174" transform="translate(0 77)"/>
+    <path id="패스_13" data-name="패스 13" class="cls-2" d="M-2703.875,77s81.217,5.565,100.8,47.078c.529,1.121,16.171,33.546,16.626,34.872,15.188,44.181,64.732,44.079,103.5,46.051s42.142,46,42.142,46V77Z" transform="translate(2801)"/>
+    <path id="패스_12" data-name="패스 12" class="cls-3" d="M-3238,372.536s70.476,9.569,89.613,73.677,46.762,46.362,78.336,59.951,40.93,40.038,42.365,40.516-210.315,0-210.315,0Z" transform="translate(3238 -295.536)"/>
+  </g>
+</svg>
